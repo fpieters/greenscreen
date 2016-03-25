@@ -3,10 +3,11 @@
 
   <form name="channelForm" class="channel-form" ng-submit="onFormSubmit()">
     <div ng-include="'/templates/channels/fields.html'"></div>
+    <div class="non-editable">Vimeo example: "https://player.vimeo.com/video/54297066?autoplay=1&loop=1&color=ffcc00&title=0&byline=0&portrait=0"<br />
+    Youtube example: "http://www.youtube.com/embed/gNwUM2vktQ4?autoplay=1&cc_load_policy=1"</div>
     <div class="submit-buttons">
       <input type="submit" name="submit" value="Add Channel">
       <a href="/channels" class="btn btn-cancel">Cancel</a>
     </div>
   </form>
 </section>
-
