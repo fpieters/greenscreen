@@ -187,7 +187,7 @@ th {
   font-style: normal;
   font-weight: normal;
   src: url("fonts/OpenSansRegular-v1.eot");
-  src: url("fonts/OpenSansRegular-v1.woff") format('woff'), 
+  src: url("fonts/OpenSansRegular-v1.woff") format('woff'),
   url("fonts/OpenSansRegular-v1.ttf") format('truetype'),
   url("fonts/OpenSansRegular-v1.woff#OpenSansRegular") format('svg');
 }
@@ -196,7 +196,7 @@ th {
   font-style: normal;
   font-weight: normal;
   src: url("fonts/OpenSansLight-v1.eot");
-  src: url("fonts/OpenSansLight-v1.woff") format('woff'), 
+  src: url("fonts/OpenSansLight-v1.woff") format('woff'),
   url("fonts/OpenSansLight-v1.ttf") format('truetype'),
   url("fonts/OpenSansLight-v1.woff#OpenSansLight") format('svg');
 }
@@ -440,7 +440,7 @@ section + section {
   background-color: #0185c6;
   color: #fff;
   border: 0;
-  border-radius: 3px; 
+  border-radius: 3px;
   font-size: .8em;
   line-height: 3.5em;
   height: 44px;
@@ -483,9 +483,10 @@ section + section {
   color: #333;
 }
 .non-editable {
-  font-size: 2em;
+  font-size: 12px;
   line-height: 1.5em;
-  color: #ccc;
+  color: red;
+  margin:10px;
 }
 .channel-link {
   text-decoration: none;
@@ -553,17 +554,17 @@ section + section {
 
 .sample-fullscreen .sample-main {
   width: 100%;
-  line-height: 70px;  
+  line-height: 70px;
   display: block;
 }
 .sample-with-sidebar .sample-main {
   width: 75%;
-  line-height: 70px;  
+  line-height: 70px;
   display: inline-block;
 }
 .sample-with-sidebar .sample-sidebar {
   width: 25%;
-  line-height: 70px;  
+  line-height: 70px;
   border-left: 1px solid #999;
 }
 .sample-label {
@@ -650,7 +651,7 @@ section + section {
 .channel-rotation span,
 .alert-duration span {
   text-align: center;
-  background-color: #e2e2e2;  
+  background-color: #e2e2e2;
   line-height: 44px;
   border-radius: 3px;
   display: block;
@@ -757,5 +758,3 @@ section + section {
     padding: 1.25em .625em;
   }
 }
-
-

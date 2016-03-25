@@ -85,7 +85,7 @@ section {
 }
 .channel-overlay {
   position: absolute;
-  bottom: 1vw;
+  top: 1vw;
   right: 2vw;
   color: #fff;
   text-shadow: 0 0 3px rgba(0,0,0,.6);
